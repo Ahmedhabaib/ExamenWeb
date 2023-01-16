@@ -1,0 +1,111 @@
+nav {
+    background-color: rgba(51, 51, 51, 0.647);
+    width: 100%;
+  margin: auto;
+  text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  #home{
+    background: url(../Images/BACKGROUND.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .salutation h1 {
+    position: absolute; /* pour que le titre soit positionné par dessus l'image */
+    top: 10%; /* pour le centrer verticalement */
+    left: 60%; /* pour le centrer horizontalement */
+    transform: translate(-50%, -50%); /* pour centrer l'élément */
+    color: #00bad4; /* couleur du texte */
+    /*text-align: center; /* pour centrer le texte */
+    font-size: 400%;
+  }
+  img {
+    width: 30px;
+    position: relative;
+    left: 43%;
+    top: 490px;
+    margin-right: 1%;
+  }
+  .description p{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: auto;
+    top: 450px;
+  }
+  .Mon_Nom h1{
+    position: absolute; /* pour que le titre soit positionné par dessus l'image */
+    top: 25%; /* pour le centrer verticalement */
+    left: 60%; /* pour le centrer horizontalement */
+    transform: translate(-50%, -50%); /* pour centrer l'élément */
+    color: #c7c8dc; /* couleur du texte */
+    /*text-align: center; /* pour centrer le texte */
+    font-size: 550%;
+  }
+  .Profession h6{
+    position: absolute; /* pour que le titre soit positionné par dessus l'image */
+    top: 35%; /* pour le centrer verticalement */
+    left: 60%; /* pour le centrer horizontalement */
+    transform: translate(-50%, -50%); /* pour centrer l'élément */
+    color: #9d9d9d; /* couleur du texte */
+    /*text-align: center; /* pour centrer le texte */
+    font-size: 100%;
+  }
+ img:hover {
+  transform: scale(1.2);
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+}
+.slides img {
+  width: 100%;
+}
+.prev-next-container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.prev, .next {
+  cursor: pointer;
+  font-size: 2em;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  visibility: hidden;
+}
+.prev-next-container:hover .prev, .prev-next-container:hover .next {
+  visibility: visible;
+}
+
+
+  

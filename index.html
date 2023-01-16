@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/css.css" rel="stylesheet" >
+    <title>Ahmed Habaib CV</title>
+</head>
+<body id="home">
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/parcours académique.html">Parcours académique</a></li>
+          <li><a href="pages/competances.html">Compétences</a></li>
+          <li><a href="pages/stages.html">Stages et Expériences</a></li>
+          <li><a href="pages/projet.html">Projets réalisés</a></li>
+          <li><a href="pages/passion.html">Passions</a></li>
+          <li><a href="pages/quizz.html">Quizz</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+          <li><a href="pages/témoignage.html">Témoignage</a></li>
+        </ul>
+      </nav>
+      
+      <div class="salutation">
+        <h1><p id="greeting"></p>
+
+          <script>
+            var currentTime = new Date().getHours();
+            var greeting;
+            var msg1;
+            var msg2;
+            if (currentTime < 12) {
+              greeting= "Bonjour,";
+            } else {
+              greeting= "Bonsoir,";
+            }
+          
+            document.getElementById("greeting").innerHTML = greeting;
+          </script>
+          </h1>
+      </div>  
+      <div class="Mon_Nom">
+        <h1> Ahmed Habaib </h1>
+      </div>
+      <div class="Profession">
+        <h6> Future ingénieur informatique </h6>
+      </div>
+      <div class="description">
+      <p> Jeune diplômé en licence d'Ingénierie des systèmes informatique (spécialité réseaux et systèmes), Actuellement étudiant en première année génie informatique à l'IIT.</p>
+      </div>
+      <div class="socialmedia">  
+      <a href="https://www.facebook.com/Ahmed.7abaib"target="_blank"> <img src="SVG/facebook.svg"></a>
+      <a href="https://www.instagram.com/habaib.ahmed"target="_blank"> <img src="SVG/instgaram.svg"></a>
+      <a href="https://www.linkedin.com/in/ahmed-habaib"target="_blank"> <img src="SVG/linkedin.svg"></a>
+      <a href="https://www.behance.net/ahmedhabaib"target="_blank"> <img src="SVG/behance.svg"></a>
+      <a href="https://api.whatsapp.com/send/?phone=21625287750"target="_blank"> <img src="SVG/wahts app.svg"></a>
+    </div> 
+
+</body>
+
+</html>

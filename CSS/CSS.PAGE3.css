@@ -1,0 +1,137 @@
+
+nav {
+    background-color: rgba(51, 51, 51, 0.647);
+    width: 100%;
+  margin: auto;
+  text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  
+/*.header_full_bg {
+    background:url(../Images/BACKG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+/*.col-md-12 img{
+    position: relative;
+    left: 60%;
+    top: 77.2px;
+width: 30%;
+height: 30%;
+}
+.header_full_bg h1{
+    color: white;
+    position: relative;
+    left: 20%;
+    top: -190px;
+    font-size: 40px;
+}*/
+body {
+    background-color: #002145;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .skill h2 {
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .skill ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skill li {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  footer {
+    position: absolute;
+      bottom: 0; /* positionne le footer en bas de la page */
+      width: 100%; /* assure que le footer occupe toute la largeur de la page */
+      padding: 20px 0;
+    background-color: rgb(141, 141, 141);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+  }
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .copyright {
+    margin: 0;
+  }
+  .social-media-links {
+    display: flex;
+  }
+  .social-link {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  .social-link:hover {
+    color: #1DA1F2;
+  }
+  .socialmedia img{
+    width: 30px;
+  }
